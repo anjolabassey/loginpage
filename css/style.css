@@ -1,52 +1,17 @@
 body {
-	background: linear-gradient(to bottom, rgba(30,144,255,0), rgba(30,144,255,0.9));
-	background-size: cover;	
-	text-align: center;
-}
-
-header {
-	background-color: blue
-}
-
-span {
-
-	margin-top: 20px;
-}
-h6 {
-	float: left;
-}
-
-form {
-	
-}
-
- label {
- 	float: left;
- }
+  background: linear-gradient(to bottom, rgba(30, 144, 255, 0), rgba(30, 144, 255, 0.9));
+  background-size: cover; }
 
 .login-box {
-	max-width: 50%;
-	background: rgba(0, 0, 0, 0.7);
-	color: white;
-	box-sizing: border-box;	
-	padding: 70px 30px;
-	margin: 80px auto;
-	border-radius: 15px;
+  max-width: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  box-sizing: border-box;
+  padding: 80px 30px;
+  margin: 110px auto;
+  border-radius: 15px; }
 
+.btn-primary:hover {
+  opacity: 0.7; }
 
-}
-
-
-.button-primary {
-
-
-}
-
-.button-primary:hover {
-    opacity: 0.8;
-}
-
-
-.content
-
-
+/*# sourceMappingURL=style.css.map */
