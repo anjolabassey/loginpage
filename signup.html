@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<title>Login</title>
@@ -15,12 +14,13 @@
 	
 
 	<!-- The above form looks like this -->
-	<div class="login-box">
-		<div class="container">
+	<div class="container">
+		<div class="login-box">
+		
 
 		
 			<div class="row">
-				<div class="eleven columns">
+				<div class="col-md-12 text-center">
 					<h1> Sign Up </h1>
 				</div>
 			</div>
@@ -29,49 +29,48 @@
 			<form>
 
 				<div class="row">
-					<div class="eleven columns">
-						<label for="exampleFirstnameInput"> First Name </label>
-						<input class="u-full-width" type="text" id="exampleFirstnameInput">
+					<div class="col-md-12 form-group">
+						<label for="exampleInputFirstname1">First Name </label>
+						<input class="form-control" type="text" id="exampleInputFirstname1">
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="eleven columns">
-						<label for="exampleLastnameInput">Last Name </label>
-						<input class="u-full-width" type="text" id="exampleLastnameInput">
+					<div class="col-md-12 form-group">
+						<label for="exampleInputLastname1">Last Name </label>
+						<input class="form-control" type="text" id="exampleInputLastname1">
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="eleven columns">
-						<label for="exampleEmailInput">Email </label>
-						<input class="u-full-width" type="email" id="exampleEmailInput">
+					<div class="col-md-12 form-group">
+						<label for="exampleInputEmail1">Email </label>
+						<input class="form-control" type="email" id="exampleInputEmail1">
 					</div>
 				</div>
 
 
 				<div class="row">
-					<div class="eleven columns">
-						<label for="exampleUsernameInput">Username </label>
-						<input class="u-full-width" type="text" id="exampleUsernameInput">
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="eleven columns">
-						<label for="examplePasswordInput">Password </label>
-						<input class="u-full-width" type="password" id="examplePasswordInput">
+					<div class="col-md-12 form-group">
+						<label for="exampleInputUsername1">Username </label>
+						<input class="form-control" type="text" id="exampleInputUsername1">
 					</div>
 				</div>
 
 
-				<input class="button-primary" type="submit" value="Submit">
-
 				<div class="row">
-				<span class="eleven columns"> <h6> <a href="#"> Forgot your Password? </a></h6></span>
+					<div class="col-md-12 form-group">
+						<label for="exampleInputPassword1">Password </label>
+						<input class="form-control" type="password" id="exampleInputPassword1">
+					</div>
 				</div>
 
 
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
 
 			</form>
 		</div>
